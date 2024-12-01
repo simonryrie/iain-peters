@@ -1,3 +1,42 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities"
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+	@font-face {
+		font-family: 'Courgette';
+		src: local('courgette'), local('Courgette'), url('/fonts/Courgette-Regular.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'ContrailOne';
+		src: local('contrail-one'), local('Contrail-One'), url('/fonts/ContrailOne-Regular.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Bentham';
+		src: local('bentham'), local('Bentham'), url('/fonts/Bentham-Regular.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Thasadith';
+		src: local('thasadith'), local('Thasadith'), url('/fonts/Thasadith-Regular.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Cabin';
+		src: local('cabin'), local('Cabin'), url('/fonts/Cabin-VariableFont.ttf');
+		font-weight: normal, bold, bolder;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Signika';
+		src: local('signika'), local('Signika'), url('/fonts/Signika-VariableFont.ttf');
+		font-weight: normal, bold, bolder;
+		font-display: swap;
+	}
+}
