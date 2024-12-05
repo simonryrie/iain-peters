@@ -1,6 +1,24 @@
-export const description: string = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis dui mauris. Etiam a purus facilisis, tincidunt arcu eget, hendrerit eros. Aliquam id imperdiet ante, eget cursus orci. Aliquam venenatis, libero vel feugiat interdum, tortor risus volutpat elit, id imperdiet neque enim vel mi. Curabitur volutpat mi non nibh eleifend, non sollicitudin erat condimentum. Nullam ullamcorper, elit id maximus suscipit, justo enim consectetur elit, non aliquet ex orci at lorem. Nunc eget augue vel tellus consectetur ultrices. Fusce eu odio id lectus sagittis efficitur et a tortor.
+export const description: string = `The Corridor is a gripping story of how mountains, climbing and secret shame can shape a
+life.
 
-Donec pellentesque eget nibh sit amet imperdiet. Phasellus ac commodo velit. Vestibulum diam sem, ullamcorper ut luctus ut, hendrerit sit amet elit. Proin accumsan porta lacinia. Sed placerat maximus luctus. Phasellus sit amet dolor at est maximus fringilla eu in eros. Aenean iaculis lorem nec tortor vulputate, vitae condimentum ipsum feugiat. Sed tempus risus non sem elementum gravida. In rhoncus, risus a suscipit dapibus, lectus velit efficitur mi, non eleifend quam tellus at nisl. Aenean tellus magna, cursus ut lectus et, posuere semper turpis. Sed ornare interdum tortor, sed consectetur ipsum luctus id. Fusce tincidunt nulla vel mi tristique vestibulum. Cras condimentum ullamcorper massa, et semper tellus eleifend in.`;
+Wild places, vivid characters and turbulent relationships frame a narrative of extraordinary
+emotional survival in the face of childhood rape.
+
+We follow Iain to Kenya, across Dartmoor, through the Alps and down to remote unclimbed
+peaks in Tierra del Fuego. We come to know his eccentric grandfather, a retired Admiral,
+who inspired in Iain a love of rock climbing that would become his lifeline.
+
+Writing powerfully from the perspectives of both child and adult, Iain shares his funny,
+rebellious, unconventional journey to escape from hidden pain, through disturbing career
+choices, disastrous mistakes, irrepressible optimism, a menage à trois, expeditions to
+South America before finally meeting and falling in love with his future wife and mother of
+his children in the islands of Cape Horn.
+
+This is a uniquely riveting adventure story of physical daring and rare emotional insight.`;
+
+export const rockyRamblers: string = `Rocky Rambler's Wild Walks, the first Lake District walking guide to put children in charge. Winner of the Hunter Davies Prize, Lake District Book of the year Awards, 1992.`;
+
+export const ccGuide: string = `Climbers’ Club Guide to North Devon and Cornwall 1998`;
 
 export type Quote = {
 	quote: string;

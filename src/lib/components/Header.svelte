@@ -3,7 +3,11 @@
 </script>
 
 <header>
-	<img class="relative h-screen w-screen object-cover" src="/coast-3.jpg" />
+	<img
+		class="relative h-screen w-screen object-cover"
+		src="/coast-3.jpg"
+		alt="A photograph of the North Devon Coast"
+	/>
 	<div
 		class="absolute bg-slate-950/20 top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-slate-950/20 to-off-white to-100%"
 	/>
@@ -12,6 +16,10 @@
 	>
 		<h1 class="text-5xl text-off-white">Iain Peters</h1>
 		<h2 class="text-6xl text-orange-200 mb-6">The Corridor</h2>
-		<Button content="Order" extraClasses="min-w-28" href="./order" />
+		<Button
+			text="Buy now"
+			extraClasses="w-1/3"
+			href="https://www.paypal.com/ncp/payment/LPZ3XAJE7GSZU"
+		/>
 	</div>
 </header>
