@@ -1,4 +1,4 @@
-export const description: string = `The Corridor is a gripping story of how mountains, climbing and secret shame can shape a life.
+export const description: string = `<i>The Corridor</i> is a gripping story of how mountains, climbing and secret shame can shape a life.
 
 Wild places, vivid characters and turbulent relationships frame a narrative of extraordinary emotional survival in the face of childhood rape.
 
@@ -10,7 +10,7 @@ This is a uniquely riveting adventure story of physical daring and rare emotiona
 
 export const rockyRamblers: string = `Rocky Rambler's Wild Walks, the first Lake District walking guide to put children in charge. Winner of the Hunter Davies Prize, Lake District Book of the year Awards, 1992.`;
 
-export const ccGuide: string = `Climbers’ Club Guide to North Devon and Cornwall 1998`;
+export const ccGuide: string = `Climbers’ Club Guide to North Devon and Cornwall 1988`;
 
 export type Quote = {
 	quote: string;
@@ -19,9 +19,9 @@ export type Quote = {
 };
 export const quotes: Quote[] = [
 	{
-		quote: `<b>"Iain Peters’ book is about the survival</b>, recovery, and creation of a life after being sexually abused as a child. It is <b>beautifully written,</b> full of detail that paints a <b>vivid picture of place,</b> time, events, and relationships without a consuming focus on the brutality or any attempt to elicit emotion in the reader. 
+		quote: `<b>"Iain Peters’ book is about the survival</b>, recovery, and creation of a life after being sexually abused as a child. It is <b>beautifully written,</b> full of detail that paints a <b>vivid picture of place,</b> time, events, and relationships without a consuming focus on the brutality or any attempt to elicit emotion in the reader.<br><br>
 
-			It is both <b>intelligent and compassionate,</b> portraying the long-term impact of the abuse through his life as a climber and offering critical analysis and deep insight into his own behaviour patterns and responses.
+			It is both <b>intelligent and compassionate,</b> portraying the long-term impact of the abuse through his life as a climber and offering critical analysis and deep insight into his own behaviour patterns and responses.<br><br>
 			
 			Of the many aspects that make this an <b>outstanding book</b> are how he understands his rejection of power, authority and the values that sustain those systems, his identification of the crucial factors necessary to recover and thrive, and his explanation of why it is so difficult to talk about sexual assault and why people stay in or return to an abusive relationship. The focus on survival strategies and <b>reflective analysis</b> is what makes it possible to read this book without falling into a pit of despair and instead to recognise <b>a life fulfilled and lived with joy despite its early trauma."</b>`,
 		author: 'Dr Joanna Liddle',
@@ -30,7 +30,7 @@ export const quotes: Quote[] = [
 			Founder member of Hereford Women's Aid Refuges`
 	},
 	{
-		quote: `"'The Corridor’, a memoir about the trauma of childhood sexual abuse, and the profound
+		quote: `"<i>The Corridor</i>, a memoir about the trauma of childhood sexual abuse, and the profound
 		influence that had on the author, a climber and teacher, <b>isn’t easy to put down.</b> His <b>pitch
 		perfect writing</b> leads you into his world; <b>I was left feeling I had been on that fearful
 		corridor and experienced almost first-hand the thrill of the cliff edge,</b> the deliberate

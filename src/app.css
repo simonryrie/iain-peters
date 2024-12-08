@@ -39,10 +39,41 @@
 		font-weight: normal, bold, bolder;
 		font-display: swap;
 	}
+
 	@font-face {
 		font-family: 'Signika';
 		src: local('signika'), local('Signika'), url('/fonts/Signika-VariableFont.ttf');
 		font-weight: normal, bold, bolder;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Bitter';
+		src: local('Bitter'), local('Bitter'), url('/fonts/Bitter-VariableFont.ttf');
+		font-weight: normal, bold, bolder;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Lato';
+		src: local('lato'), local('Lato'), url('/fonts/Lato-Regular.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Lato';
+		src: local('lato-bold'), local('LatoBold'), url('/fonts/Lato-Bold.ttf');
+		font-weight: bold;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Junge';
+		src: local('Junge'), local('Junge'), url('/fonts/Junge-Regular.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Gentium';
+		src: local('Gentium'), local('Gentium'), url('/fonts/GentiumBookPlus-Bold.ttf');
+		font-weight: normal;
 		font-display: swap;
 	}
 }

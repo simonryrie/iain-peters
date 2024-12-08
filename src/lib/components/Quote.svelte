@@ -16,14 +16,14 @@
 	<div bind:this={node}>
 		{#if intersecting} -->
 <div
-	class={`m${leftAligned ? 'l' : 'r'}-[12.5%] font-body flex flex-col gap-4 items-end p-10 bg-blue-400/20 text-dark-brown rounded-3xl text-dark-brown`}
+	class={`m${leftAligned ? 'l' : 'r'}-[12.5%] font-body flex flex-col gap-8 items-end p-10 bg-blue-400/20 text-dark-brown rounded-3xl text-dark-brown`}
 >
-	<p class="italic text-lg">{@html quote.quote}</p>
+	<p class="text-lg">{@html quote.quote}</p>
 	<div
 		class={`${leftAligned ? 'items-start' : 'items-end text-right'} font-bold flex flex-col gap-0`}
 	>
 		<p>{@html quote.author}</p>
-		<p>{@html quote.position}</p>
+		<p class="font-normal">{@html quote.position}</p>
 	</div>
 </div>
 <!-- {/if}

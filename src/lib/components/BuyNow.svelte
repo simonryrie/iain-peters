@@ -11,12 +11,11 @@
 		alt="A black-and-white photograph of Iain Peters climbing"
 	/>
 	<div class="bg-blue-400/20 p-8 rounded-3xl flex flex-col gap-8 text-dark-brown w-2/3">
-		<h3 class="font-serif text-3xl">Buy "The Corridor"</h3>
-		<p>£15 + P&P (RRP £20)</p>
-		<p>UK delivery only (2nd Class)</p>
+		<h3 class="font-serif text-3xl">Buy</h3>
+		<p>£18 including P&P (RRP £20) - UK delivery (2nd Class)</p>
 		<p>
-			For information on international orders, please contact me directly through one of the social
-			media links below.
+			For international orders, please contact me directly through one of the social media links
+			below.
 		</p>
 		<div class="flex flex-col gap-4">
 			<p>GDPR Agreement *</p>

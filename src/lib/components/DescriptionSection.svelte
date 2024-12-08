@@ -13,7 +13,7 @@
 	<div class="leading-relaxed w-1/2 flex flex-col gap-12 text-dark-brown rounded-3xl">
 		<div class="flex flex-col gap-6">
 			<h3 class="text-3xl font-serif">{heading}</h3>
-			<p>{@html description.replace(/\n/g, '<br>')}</p>
+			<p class="text-lg">{@html description.replace(/\n/g, '<br>')}</p>
 		</div>
 	</div>
 	{#if imageRight}

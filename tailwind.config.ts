@@ -9,9 +9,9 @@ export default {
 
 	theme: {
 		fontFamily: {
-			sans: ['Thasadith'],
-			serif: ['Bentham'],
-			body: ['Thasadith']
+			sans: ['Lato'],
+			serif: ['Gentium'],
+			body: ['Lato']
 		},
 		extend: {
 			fontFamily: {
@@ -20,7 +20,11 @@ export default {
 				Bentham: ['bentham'],
 				Signika: ['signika'],
 				Thasadith: ['thasadith'],
-				Cabin: ['cabin']
+				Cabin: ['cabin'],
+				Lato: ['lato'],
+				Bitter: ['bitter'],
+				Junge: ['junge'],
+				Gentium: ['gentium']
 			},
 			colors: {
 				'off-white': '#ebe9e6',
