@@ -28,6 +28,12 @@
 		font-display: swap;
 	}
 	@font-face {
+		font-family: 'Thasadith';
+		src: local('thasadith-bold'), local('ThasadithBold'), url('/fonts/Thasadith-Bold.ttf');
+		font-weight: bold;
+		font-display: swap;
+	}
+	@font-face {
 		font-family: 'Cabin';
 		src: local('cabin'), local('Cabin'), url('/fonts/Cabin-VariableFont.ttf');
 		font-weight: normal, bold, bolder;

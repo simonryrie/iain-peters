@@ -1,5 +1,18 @@
 <script>
 	import Button from './Button.svelte';
+
+	const scrollToBuy = () => {
+		const buyNowSection = document.getElementById('buy-now');
+
+		if (buyNowSection) {
+			requestAnimationFrame(() => {
+				buyNowSection.scrollIntoView({
+					behavior: 'smooth',
+					block: 'center'
+				});
+			});
+		}
+	};
 </script>
 
 <header>
@@ -16,10 +29,6 @@
 	>
 		<h1 class="text-5xl text-off-white">Iain Peters</h1>
 		<h2 class="text-6xl text-orange-200 mb-6">The Corridor</h2>
-		<Button
-			text="Buy now"
-			extraClasses="w-1/3"
-			href="https://www.paypal.com/ncp/payment/LPZ3XAJE7GSZU"
-		/>
+		<Button text="Buy now" extraClasses="w-1/3" on:onClick={scrollToBuy} />
 	</div>
 </header>
