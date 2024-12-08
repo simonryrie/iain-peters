@@ -5,7 +5,7 @@
 	export let quotes: QuoteType[];
 </script>
 
-<div class="flex flex-col gap-12 text-dark-brown mb-12">
+<div class="flex flex-col gap-12 text-dark-brown">
 	{#each quotes as quote, index}
 		<div class={`w-3/5 ${index % 2 === 0 ? 'self-start' : 'self-end'}`}>
 			<Quote {quote} leftAligned={index % 2 === 0} />

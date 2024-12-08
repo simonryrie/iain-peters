@@ -10,7 +10,7 @@
 		class="w-1/3 object-cover"
 		alt="A black-and-white photograph of Iain Peters climbing"
 	/>
-	<div class="bg-blue-400/20 p-8 rounded-3xl flex flex-col gap-8 text-dark-brown w-2/3">
+	<div class="bg-stone-500/20 p-8 rounded-3xl flex flex-col gap-8 text-dark-brown w-2/3">
 		<h3 class="font-sans font-bold text-3xl">Buy</h3>
 		<p>£18 including P&P (RRP £20) - UK delivery (2nd Class)</p>
 		<p>
@@ -21,7 +21,7 @@
 			<p>GDPR Agreement *</p>
 			<label class="flex items-center gap-2">
 				<input type="checkbox" bind:checked={gdprApproved} />
-				I consent to having this website store my submitted information so they can respond to my inquiry.
+				I consent to having my information stored for the purpose of processing and delivering my order.
 			</label>
 		</div>
 		<div class="flex justify-center w-full">

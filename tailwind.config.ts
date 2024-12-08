@@ -27,7 +27,7 @@ export default {
 				Gentium: ['gentium']
 			},
 			colors: {
-				'off-white': '#ebe9e6',
+				'off-white': '#fafaf9',
 				'dark-brown': '#241c11'
 			}
 		}
