@@ -8,8 +8,10 @@
 		class="w-1/2 object-cover"
 		alt="A photograph of Iain Peters climbing with his dogs"
 	/>
-	<div class="w-1/2 flex flex-col gap-12 items-around justify-center">
-		<h3 class="text-3xl font-serif">Other Books by Iain Peters</h3>
+	<div
+		class="w-1/2 flex flex-col gap-12 items-around justify-center bg-blue-600/20 p-8 rounded-3xl"
+	>
+		<h3 class="text-3xl font-sans font-bold">Other Books by Iain Peters</h3>
 		<div class="flex flex-col gap-12 items-around justify-center">
 			<div class="flex gap-6 items-center">
 				<img

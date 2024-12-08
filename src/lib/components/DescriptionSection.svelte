@@ -6,18 +6,18 @@
 	export let alt: string;
 </script>
 
-<div class="flex items-between gap-12 w-full">
+<div class="flex items-between gap-12 w-full bg-cyan-600/20 py-8 px-16 rounded-3xl">
 	{#if !imageRight}
 		<img class="w-2/5 object-cover" {alt} {src} />
 	{/if}
-	<div class="leading-relaxed w-1/2 flex flex-col gap-12 text-dark-brown rounded-3xl">
-		<div class="flex flex-col gap-6">
-			<h3 class="text-3xl font-serif">{heading}</h3>
-			<p class="text-lg">{@html description.replace(/\n/g, '<br>')}</p>
-		</div>
+	<div class="leading-relaxed w-1/2 flex flex-col text-dark-brown justify-center items-center">
+		<!-- <div class="flex flex-col gap-6">
+			<h3 class="text-3xl font-serif">{heading}</h3> -->
+		<p class="text-lg">{@html description.replace(/\n/g, '<br>')}</p>
+		<!-- </div> -->
 	</div>
 	{#if imageRight}
-		<div class="w-1/2 flex justify-end">
+		<div class="w-1/2 flex justify-center">
 			<img class="object-cover" {alt} {src} />
 		</div>
 	{/if}
