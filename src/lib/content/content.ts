@@ -2,9 +2,9 @@ export const description: string = `<i>The Corridor</i> is a gripping story of h
 
 Wild places, vivid characters and turbulent relationships frame a narrative of extraordinary emotional survival in the face of childhood rape.
 
-We follow Iain to Kenya, across Dartmoor, through the Alps and down to remote unclimbed peaks in Tierra del Fuego. We come to know his eccentric grandfather, a retired Admiral, who inspired in Iain a love of rock climbing that would become his lifeline.
+We follow Iain to Kenya, across Dartmoor, Cornwall, The Alps and the remote, unclimbed peaks of the Cordillera Darwin in Tierra del Fuego. We come to know his eccentric grandfather, a retired Admiral, who inspired in Iain a love of rock climbing that would become his lifeline.
 
-Writing powerfully from the perspectives of both child and adult, Iain shares his funny, rebellious, unconventional journey to escape from hidden pain, through disturbing career choices, disastrous mistakes, irrepressible optimism, a menage à trois, expeditions to South America before finally meeting and falling in love with his future wife and mother of his children in the islands of Cape Horn.
+Writing powerfully from the perspective of both child and adult, Iain shares his funny, rebellious, unconventional journey to escape from hidden pain, through disturbing career choices, disastrous mistakes, irrepressible optimism, a menage à trois, expeditions to South America before finally meeting and falling in love with his future wife and mother of his children in the islands of Cape Horn.
 
 This is a uniquely riveting adventure story of physical daring and rare emotional insight.`;
 

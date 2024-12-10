@@ -5,11 +5,6 @@
 </script>
 
 <div id="buy-now" class="w-full flex justify-center gap-12">
-	<img
-		src="/iain-1.jpg"
-		class="w-1/3 object-cover"
-		alt="A black-and-white photograph of Iain Peters climbing"
-	/>
 	<div class="bg-stone-500/20 p-8 rounded-3xl flex flex-col gap-8 text-dark-brown w-2/3">
 		<h3 class="font-sans font-bold text-3xl">Buy</h3>
 		<p>£18 including P&P (RRP £20) - UK delivery (2nd Class)</p>
@@ -33,4 +28,9 @@
 			/>
 		</div>
 	</div>
+	<img
+		src="/iain-1.jpg"
+		class="w-1/2 object-cover"
+		alt="A black-and-white photograph of Iain Peters climbing"
+	/>
 </div>

@@ -9,9 +9,9 @@
 </script>
 
 <Header />
-<main class="px-24 py-24 flex flex-col gap-24 bg-off-white">
-	<Quotes {quotes} />
+<main class="px-24 py-12 flex flex-col gap-12 bg-off-white">
 	<Description />
+	<Quotes {quotes} />
 	<BuyNow />
 	<OtherBooks />
 </main>

@@ -5,9 +5,9 @@
 	export let quotes: QuoteType[];
 </script>
 
-<div class="flex flex-col gap-12 text-dark-brown">
+<div class="flex flex-col gap-12 text-dark-brown px-24">
 	{#each quotes as quote, index}
-		<div class={`w-3/5 ${index % 2 === 0 ? 'self-start' : 'self-end'}`}>
+		<div class={`w-5/6 ${index % 2 === 0 ? 'self-start' : 'self-end'}`}>
 			<Quote {quote} leftAligned={index % 2 === 0} />
 		</div>
 	{/each}
