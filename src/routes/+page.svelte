@@ -9,7 +9,7 @@
 </script>
 
 <Header />
-<main class="px-24 py-12 flex flex-col gap-12 bg-off-white">
+<main class="px-6 md:px-12 xl:px-24 py-12 flex flex-col gap-6 xl:gap-12 bg-off-white">
 	<Description />
 	<Quotes {quotes} />
 	<BuyNow />

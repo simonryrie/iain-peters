@@ -6,10 +6,10 @@
 </script>
 
 <footer
-	class="bg-dark-brown w-full h-36 flex justify-around text-off-white justify-center items-center"
+	class="bg-dark-brown w-full h-24 md:h-32 xl:h-36 flex justify-around text-off-white justify-center items-center text-sm md:text-base xl:text-lg"
 >
 	<div class="flex flex-col gap-4">
-		<p>Contact me</p>
+		<p class="hidden xl:block">Contact me</p>
 		<div class="flex gap-4">
 			<Button defaultClasses={buttonClasses} href="https://bsky.app/profile/iainpeters.bsky.social">
 				<svg

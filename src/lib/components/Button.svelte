@@ -4,7 +4,7 @@
 	export let text = '';
 	export let href = '';
 	export let defaultClasses =
-		'box-border font-sans bg-dark-brown text-off-white p-4 text-xl rounded-full box-shadow hover:text-dark-brown hover:bg-off-white transition-all duration-300 ease-in-out border hover:border-dark-brown border-transparent flex justify-center';
+		'box-border font-sans bg-dark-brown text-off-white p-3 md:p-4 text-md md:text-xl rounded-full box-shadow hover:text-dark-brown hover:bg-off-white transition-all duration-300 ease-in-out border hover:border-dark-brown border-transparent flex justify-center';
 	export let extraClasses = '';
 	export let disabled = false;
 

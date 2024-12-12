@@ -3,7 +3,7 @@
 	import { description } from '$lib/content/content';
 </script>
 
-<div class="flex flex-col gap-16">
+<div class="flex flex-col gap-6">
 	<DescriptionSection
 		heading="The Corridor"
 		{description}
