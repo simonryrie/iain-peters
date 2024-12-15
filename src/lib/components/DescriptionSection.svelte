@@ -15,8 +15,8 @@
 		<p class="text-sm md:text-base xl:text-lg">{@html description.replace(/\n/g, '<br>')}</p>
 	</div>
 	{#if imageRight}
-		<div class="w-full xl:w-1/2 xl:flex justify-center">
-			<img class="object-cover" {alt} {src} />
+		<div class="w-full xl:w-1/2 flex justify-center">
+			<img class=" max-h-[700px] 2xl:max-h-[560px] object-cover" {alt} {src} />
 		</div>
 	{/if}
 </div>

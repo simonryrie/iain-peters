@@ -16,7 +16,7 @@
 	<div bind:this={node}>
 		{#if intersecting} -->
 <div
-	class={`m-0 xl:m${leftAligned ? 'l' : 'r'}-[12.5%] font-body flex flex-col gap-8 items-end p-4 md:p-8 xl:p-10 ${leftAligned ? 'bg-stone-500/20' : 'bg-blue-500/20'} text-dark-brown rounded-3xl text-dark-brown text-sm md:text-base xl:text-lg`}
+	class={`m-0 xl:m${leftAligned ? 'l' : 'r'}-[12.5%] font-body flex flex-col gap-8 items-end p-4 md:p-8 xl:p-10 ${leftAligned ? 'bg-blue-500/20' : 'bg-stone-500/20'} text-dark-brown rounded-3xl text-dark-brown text-sm md:text-base xl:text-lg`}
 >
 	<p>{@html quote.quote}</p>
 	<div

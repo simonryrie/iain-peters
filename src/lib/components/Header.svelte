@@ -16,15 +16,13 @@
 	};
 </script>
 
-<header>
+<header class="mb-20 relative w-full h-screen">
 	<img
-		class="relative h-screen w-screen object-cover"
+		class="relative h-full w-full object-cover"
 		src="/coast-3.jpg"
 		alt="A photograph of the North Devon Coast"
 	/>
-	<div
-		class="absolute bg-slate-950/20 top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-slate-950/20 to-off-white to-100%"
-	/>
+	<div class="absolute inset-0 bg-gradient-to-b from-transparent via-slate-950/20 to-off-white" />
 	<div
 		class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-sans font-weight-bold flex flex-col justify-center items-center gap-8"
 	>
@@ -32,5 +30,7 @@
 		<h2 class="text-5xl md:text-6xl text-orange-200 mb-6">The Corridor</h2>
 		<Button text="Buy now" extraClasses="w-28" on:onClick={scrollToBuy} />
 	</div>
-	<QuoteCarousel />
+	<div class="mb-10">
+		<QuoteCarousel />
+	</div>
 </header>

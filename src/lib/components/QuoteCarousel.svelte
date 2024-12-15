@@ -30,11 +30,11 @@
 	};
 
 	const quotes = [
-		'Beautifully written',
-		'Intelligent and compassionate',
-		'An outstanding book',
-		'His pitch perfect writing leads you into his world',
-		'There is a universal quality to the writing'
+		'Beautifully written.',
+		'His pitch perfect writing leads you into his world...',
+		'Intelligent and compassionate.',
+		'There is a universal quality to the writing...',
+		'An outstanding book.'
 	];
 
 	onMount(() => {
