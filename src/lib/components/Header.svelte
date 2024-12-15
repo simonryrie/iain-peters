@@ -1,5 +1,6 @@
 <script>
 	import Button from './Button.svelte';
+	import QuoteCarousel from './QuoteCarousel.svelte';
 
 	const scrollToBuy = () => {
 		const buyNowSection = document.getElementById('buy-now');
@@ -31,4 +32,5 @@
 		<h2 class="text-5xl md:text-6xl text-orange-200 mb-6">The Corridor</h2>
 		<Button text="Buy now" extraClasses="w-28" on:onClick={scrollToBuy} />
 	</div>
+	<QuoteCarousel />
 </header>

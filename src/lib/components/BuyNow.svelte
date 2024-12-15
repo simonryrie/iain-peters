@@ -4,7 +4,7 @@
 	let gdprApproved = false;
 </script>
 
-<div id="buy-now" class="w-full flex flex-col-reverse md:flex-row justify-center gap-6 xl:gap-12">
+<div id="buy-now" class="w-full flex flex-col md:flex-row justify-center gap-6 xl:gap-12">
 	<div
 		class="text-sm md:text-base xl:text-lg bg-stone-500/20 p-4 md:p-8 rounded-3xl flex flex-col gap-4 md:gap-8 text-dark-brown md:w-2/3"
 	>

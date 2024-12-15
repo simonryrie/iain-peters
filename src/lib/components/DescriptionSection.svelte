@@ -15,10 +15,10 @@
 		<p class="text-sm md:text-base xl:text-lg">{@html description.replace(/\n/g, '<br>')}</p>
 	</div>
 	{#if imageRight}
-		<div class="hidden w-full xl:w-1/2 xl:flex justify-center">
+		<div class="w-full xl:w-1/2 xl:flex justify-center">
 			<img class="object-cover" {alt} {src} />
 		</div>
 	{/if}
 </div>
 
-<img class="object-cover xl:hidden" {alt} {src} />
+<!-- <img class="object-cover xl:hidden" {alt} {src} /> -->
