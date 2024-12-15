@@ -25,7 +25,7 @@
 			</Button>
 			<Button
 				defaultClasses={buttonClasses}
-				href="https://www.facebook.com/people/Iain-Peters/61570505272698/"
+				href="https://www.facebook.com/profile.php?id=61570505272698"
 			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
