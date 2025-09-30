@@ -16,7 +16,7 @@
 	};
 </script>
 
-<header class="mb-20 relative w-full h-screen">
+<div class="mb-20 relative w-full h-screen">
 	<img
 		class="relative h-full w-full object-cover"
 		src="/coast-3.jpg"
@@ -33,4 +33,4 @@
 	<div class="mb-10">
 		<QuoteCarousel />
 	</div>
-</header>
+</div>

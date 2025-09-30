@@ -1,6 +1,5 @@
 <script lang="ts">
-	import Header from '$lib/components/Header.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import PageHeader from '$lib/components/PageHeader.svelte';
 	import Description from '$lib/components/Description.svelte';
 	import Quotes from '$lib/components/Quotes.svelte';
 	import { quotes } from '$lib/content/content';
@@ -19,11 +18,9 @@
 	<link rel="icon" type="image/jpg" href="/cover-4.jpg" />
 </svelte:head>
 
-<Header />
+<PageHeader />
 <main class="px-6 md:px-12 xl:px-24 py-12 flex flex-col gap-6 xl:gap-12 bg-off-white">
 	<Description />
 	<BuyNow />
-	<Quotes {quotes} />
 	<OtherBooks />
 </main>
-<Footer />

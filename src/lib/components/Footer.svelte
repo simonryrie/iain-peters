@@ -2,7 +2,7 @@
 	import Button from './Button.svelte';
 
 	const buttonClasses =
-		'box-border p-2 text-xl bg-off-white hover:bg-dark-brown text-dark-brown hover:text-off-white border border:transparent hover:border-off-white rounded-full transition-all duration-300 ease-in-out ';
+		'box-border p-1 md:p-2 text-xl bg-off-white hover:bg-dark-brown text-dark-brown hover:text-off-white border border:transparent hover:border-off-white rounded-full transition-all duration-300 ease-in-out ';
 </script>
 
 <footer
