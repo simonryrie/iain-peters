@@ -53,9 +53,10 @@ export const quotes: Quote[] = [
 		position: 'President British Mountaineering Council, BMC Summit Magazine'
 	},
 	{
-		quote: `… This corridor goes from darkness to light. And this is the path we must follow – however hard it may be. The Corridor… is a beautifully written account of a desperate struggle for survival…[that] goes from darkness to light… I urge you to read it.`,
-		author: 'Michael Ward',
-		position: 'Author and Contributor, UKC Online'
+		quote: `… Once started I couldn’t put it down. A remarkable, haunting book… in the end, a joyful book and one of the most moving autobiographies that I have read, full of both deeply felt passion and compassion for others.`,
+		author: 'Dr. Terry Gifford',
+		position:
+			'Profesor Honorifico, Filologia Inglesa, Universidad de Alicante, Spain; Reader in Literature and Environment, University of Leeds (retired)'
 	},
 	{
 		quote: `’The Corridor’, a memoir about the trauma of childhood sexual abuse, and the
@@ -77,15 +78,9 @@ export const quotes: Quote[] = [
 		position: 'Founder, Garland Mountaineering'
 	},
 	{
-		quote: `… Once started I couldn’t put it down. A remarkable, haunting book… in the end, a joyful book and one of the most moving autobiographies that I have read, full of both deeply felt passion and compassion for others.`,
-		author: 'Dr. Terry Gifford',
-		position:
-			'Profesor Honorifico, Filologia Inglesa, Universidad de Alicante, Spain; Reader in Literature and Environment, University of Leeds (retired)'
-	},
-	{
-		quote: `… It’s a really superb work; a magnum opus indeed.`,
-		author: 'F R Cannings',
-		position: 'Mountaineer, Alpine Club member'
+		quote: `… This corridor goes from darkness to light. And this is the path we must follow – however hard it may be. The Corridor… is a beautifully written account of a desperate struggle for survival…[that] goes from darkness to light… I urge you to read it.`,
+		author: 'Michael Ward',
+		position: 'Author and Contributor, UKC Online'
 	},
 	{
 		quote: `… Iain’s book is different. Though it is at times an undeniably uncomfortable read, it is also a frank, moving, and ultimately hopeful testimony. I strongly recommend it.`,

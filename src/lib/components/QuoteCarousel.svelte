@@ -37,7 +37,7 @@
 		'This is a book that had to be written... I cannot stress how important this book is.',
 		'Intelligent and compassionate.',
 		'Peters’ writing is excellent and imaginative... in this searingly frank and moving book, and it deserves to be read by the widest possible audience.',
-		'The book is different. frank, moving, and ultimately hopeful testimony. I strongly recommend it.',
+		'The book is different... frank, moving, and ultimately hopeful testimony. I strongly recommend it.',
 		'An outstanding book.',
 		"[Peters'] pitch perfect writing leads you into his world..."
 	];
