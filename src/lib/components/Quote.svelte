@@ -1,31 +1,34 @@
 <script lang="ts">
-	// import { fly } from 'svelte/transition';
-	// import IntersectionObserver from 'svelte-intersection-observer';
 	import type { Quote } from '$lib/content/content';
-	// import { cubicOut } from 'svelte/easing';
 
 	export let quote: Quote;
 	export let leftAligned = true;
 
-	let node: HTMLDivElement;
+	// Outdoor cliff-inspired color variations using existing theme
+	const cliffColors = [
+		'bg-orange-200/30 border-orange-200/50', // Sandy cliff face
+		'bg-slate-400/25 border-slate-400/40', // Stone ledge
+		'bg-amber-100/40 border-amber-100/60', // Weathered rock
+		'bg-stone-300/30 border-stone-300/45' // Granite surface
+	];
+
+	// Use a consistent color based on quote index for predictability
+	const colorSeed = (quote.author.length + quote.quote.length) % cliffColors.length;
+	const cliffColor = cliffColors[colorSeed];
 </script>
 
-<!-- transition:fly={{ x: leftAligned ? -750 : 750, duration: 1000, easing: cubicOut }} -->
-
-<!-- <IntersectionObserver element={node} once threshold={1} let:intersecting>
-	<div bind:this={node}>
-		{#if intersecting} -->
-<div
-	class={`m-0 xl:m${leftAligned ? 'l' : 'r'}-[12.5%] font-body flex flex-col gap-8 items-end p-4 md:p-8 xl:p-10 ${leftAligned ? 'bg-blue-500/20' : 'bg-stone-500/20'} text-dark-brown rounded-3xl text-dark-brown text-sm md:text-base xl:text-lg`}
->
-	<p>{@html quote.quote}</p>
+<div class="w-full">
 	<div
-		class={`${leftAligned ? 'items-start' : 'xl:items-end xl:text-right'} font-bold flex flex-col gap-0`}
+		class={`font-body flex flex-col gap-6 xl:gap-8 p-4 md:p-6 xl:p-8 ${cliffColor} text-dark-brown border border-dark-brown/20 rounded-lg xl:rounded-xl text-sm md:text-base xl:text-lg shadow-lg hover:shadow-xl transition-shadow duration-300`}
 	>
-		<p>{@html quote.author}</p>
-		<p class="font-normal">{@html quote.position}</p>
+		<p class="leading-relaxed">{@html quote.quote}</p>
+		<div
+			class={`${leftAligned ? 'items-start' : 'xl:items-end xl:text-right'} font-bold flex flex-col gap-1`}
+		>
+			<p class="text-dark-brown">{@html quote.author}</p>
+			<p class="font-normal text-dark-brown/70 text-xs md:text-sm xl:text-base">
+				{@html quote.position}
+			</p>
+		</div>
 	</div>
 </div>
-<!-- {/if}
-	</div>
-</IntersectionObserver> -->

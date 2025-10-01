@@ -16,7 +16,12 @@
 	};
 </script>
 
-<header class="mb-20 relative w-full h-screen">
+<div class="mb-28 md:mb-20 relative w-full h-screen">
+	<img
+		class="absolute w-[170px] lg:w-[185px] xl:w-[200px] z-10 left-4 top-6 lg:left-8 lg:top-12 xl:top-16 xl:left-12 2xl:top-20 2xl:left-16"
+		src="/boardman-tasker-sticker.png"
+		alt="A sticker explaining that the book has been shortlisted for the Boardman Tasker Award for Mountain Literature"
+	/>
 	<img
 		class="relative h-full w-full object-cover"
 		src="/coast-3.jpg"
@@ -33,4 +38,4 @@
 	<div class="mb-10">
 		<QuoteCarousel />
 	</div>
-</header>
+</div>

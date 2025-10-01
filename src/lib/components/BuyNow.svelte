@@ -12,14 +12,14 @@
 		class="max-h-[550px] text-sm md:text-base xl:text-lg bg-stone-500/20 p-4 md:p-8 rounded-3xl flex flex-col gap-4 md:gap-8 text-dark-brown md:w-2/3"
 	>
 		<h3 class="font-sans font-bold text-2xl md:text-3xl self-center md:self-auto">Buy</h3>
-		<p>£18 including P&P (RRP £20) - UK delivery (2nd Class)</p>
+		<p>£20 including P&P - UK delivery (2nd Class)</p>
 		<p>
 			For international orders, please contact me directly through one of the social media links
 			below.
 		</p>
 		<div class="flex flex-col gap-4">
 			<p>GDPR Agreement *</p>
-			<label class="flex items-center gap-2">
+			<label class="flex items-center gap-4">
 				<input type="checkbox" bind:checked={gdprApproved} />
 				I consent to having my information stored for the purpose of processing and delivering my order.
 			</label>
