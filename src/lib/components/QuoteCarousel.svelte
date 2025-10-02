@@ -33,7 +33,7 @@
 		'The Corridor is a beautifully written account of a desperate struggle for survival. I urge you to read it.',
 		'Once started I couldn’t put it down. A remarkable, haunting book, it is so much more than a climber’s memoir.',
 		'It’s a great story, the story of a life well-lived... takes the breath away. A compelling narrative of resilience and heroism, on and off the rock...',
-		'...a joyful book and one of the most moving autobiographies that I have read, full of both deeply felt passion and compassion for others.',
+		'...in the end, a joyful book and one of the most moving autobiographies that I have read, full of both deeply felt passion and compassion for others.',
 		'This is a book that had to be written... I cannot stress how important this book is.',
 		'Intelligent and compassionate.',
 		'Peters’ writing is excellent and imaginative... in this searingly frank and moving book, and it deserves to be read by the widest possible audience.',
