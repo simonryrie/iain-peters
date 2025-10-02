@@ -78,7 +78,7 @@ export const quotes: Quote[] = [
 		position: 'Founder, Garland Mountaineering'
 	},
 	{
-		quote: `… This corridor goes from darkness to light. And this is the path we must follow – however hard it may be. The Corridor… is a beautifully written account of a desperate struggle for survival…[that] goes from darkness to light… I urge you to read it.`,
+		quote: `… The Corridor… is a beautifully written account of a desperate struggle for survival…[that] goes from darkness to light… I urge you to read it.`,
 		author: 'Michael Ward',
 		position: 'Author and Contributor, UKC Online'
 	},
