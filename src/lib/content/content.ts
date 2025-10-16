@@ -35,7 +35,7 @@ export const quotes: Quote[] = [
 		brutality or any attempt to elicit emotion in the reader. It is both intelligent and
 		compassionate, portraying the long-term impact of the abuse through his life as a
 		climber and offering critical analysis and deep insight into his own behaviour patterns
-		and responses. Of the many aspects that make this an outstanding book are how he
+		and responses. One of the many aspects that make this an outstanding book is how he
 		understands his rejection of power, authority and the values that sustain those
 		systems, his identification of the crucial factors necessary to recover and thrive, and
 		his explanation of why it is so difficult to talk about sexual assault and why people
