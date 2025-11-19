@@ -7,7 +7,7 @@
 	<DescriptionSection
 		heading="The Corridor"
 		{description}
-		src="/cover-4.jpg"
+		src="/cover-5.jpg"
 		alt="The front cover of The Corridor by Iain Peters"
 	/>
 </div>
