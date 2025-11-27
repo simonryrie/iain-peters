@@ -1,14 +1,12 @@
 <script lang="ts">
 	import PageHeader from '$lib/components/PageHeader.svelte';
 	import Description from '$lib/components/Description.svelte';
-	import Quotes from '$lib/components/Quotes.svelte';
-	import { quotes } from '$lib/content/content';
 	import BuyNow from '$lib/components/BuyNow.svelte';
 	import OtherBooks from '$lib/components/OtherBooks.svelte';
 </script>
 
 <svelte:head>
-	<title>Iain Peters</title>
+	<title>Iain Peters - The Corridor</title>
 	<meta name="description" content="Website for author Iain Peters' book The Corridor" />
 	<meta name="keywords" content="Iain Peters, The Corridor, climbing, CSA, mountaineering" />
 	<meta property="og:title" content="Iain Peters" />
