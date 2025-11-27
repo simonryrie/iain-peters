@@ -39,7 +39,7 @@
 
 <svelte:window bind:innerWidth={viewportWidth} />
 
-<div class="relative flex flex-col gap-16 xl:gap-24 px-0 xl:px-12">
+<div class="relative flex flex-col gap-12 xl:gap-16 px-0 xl:px-12 py-6 md:pt-12 xl:pb-12">
 	{#each quotes as quote, index}
 		{@const config = quoteConfigs[index]}
 		<div class="relative" style="width: 100%; max-width: 100%;">
