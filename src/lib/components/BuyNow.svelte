@@ -14,8 +14,10 @@
 		<h3 class="font-sans font-bold text-2xl md:text-3xl self-center md:self-auto">Buy</h3>
 		<p>£20 including P&P - UK delivery (2nd Class)</p>
 		<p>
-			For international orders, please contact me directly through one of the social media links
-			below.
+			For international orders, please contact me directly through <a
+				class="underline"
+				href="mailto:hello@iainpeters.com">hello@iainpeters.com</a
+			>
 		</p>
 		<div class="flex flex-col gap-4">
 			<p>GDPR Agreement *</p>
