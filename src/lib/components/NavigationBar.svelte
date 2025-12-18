@@ -52,7 +52,7 @@
 				{/each}
 			</div>
 
-			<div class="flex gap-4">
+			<div class="flex gap-4 items-center">
 				<Button
 					defaultClasses={buttonClasses}
 					href="https://bsky.app/profile/iainpeters.bsky.social"
@@ -83,6 +83,18 @@
 						></path></svg
 					>
 				</Button>
+				<a class={buttonClasses} href="mailto:hello@iainpeters.com"
+					><svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="20"
+						height="20"
+						viewBox="0 0 32 32"
+						fill="currentColor"
+						><path
+							d="M30.56,8.47a8,8,0,0,0-7-7,64.29,64.29,0,0,0-15.06,0,8,8,0,0,0-7,7,64.29,64.29,0,0,0,0,15.06,8,8,0,0,0,7,7,64.29,64.29,0,0,0,15.06,0,8,8,0,0,0,7-7A64.29,64.29,0,0,0,30.56,8.47Zm-8.69,8,6.76-7.09a63.05,63.05,0,0,1,0,13ZM8.7,3.42a63.65,63.65,0,0,1,14.6,0A6,6,0,0,1,28.1,7L18.57,17H13.43L3.9,7A6,6,0,0,1,8.7,3.42Zm-5.36,19a63.05,63.05,0,0,1,0-13l6.76,7.09Zm20,6.21a63.65,63.65,0,0,1-14.6,0,6,6,0,0,1-4.94-3.92l7.75-6.78.77.81A1,1,0,0,0,13,19h6a1,1,0,0,0,.72-.31l.77-.81,7.75,6.78A6,6,0,0,1,23.3,28.58Z"
+						/></svg
+					></a
+				>
 			</div>
 		</div>
 	</nav>
