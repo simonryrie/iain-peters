@@ -1,5 +1,4 @@
 <script lang="ts">
-	export let heading: string;
 	export let description: string;
 	export let imageRight = true;
 	export let src: string;
@@ -20,5 +19,3 @@
 		</div>
 	{/if}
 </div>
-
-<!-- <img class="object-cover xl:hidden" {alt} {src} /> -->
