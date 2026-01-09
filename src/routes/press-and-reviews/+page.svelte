@@ -38,19 +38,6 @@
 				<span> - Milan Perera | Bristol24/7 | 19th December 2025</span>
 			</article>
 			<article>
-				<a
-					href="https://www.boardmantasker.com/news/2025/12/8/reflections-on-the-2025-bt-shortlisted-authors-event-at-kendal-mountain-festival"
-					>Reflections on the 2025 BT Shortlisted Authors Event at Kendal Mountain Festival</a
-				>
-				<span> - Boardman Tasker | 8th December 2025</span>
-			</article>
-			<article>
-				<a href="https://www.boardmantasker.com/news/2025/11/24/2025-judges-speech"
-					>2025 Judges Speech</a
-				>
-				<span> - Rehan Siddiqui | Boardman Tasker | 24th November 2025</span>
-			</article>
-			<article>
 				<a href="https://mountainmedicineblog.7thwave.io/cgi-bin/renderpost.py?postid=8570"
 					>"An Incurable Optimist" Part 2</a
 				>
