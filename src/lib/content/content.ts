@@ -19,6 +19,11 @@ export type Quote = {
 };
 export const quotes: Quote[] = [
 	{
+		quote: `In his memoir, Iain Peters recounts his life as a climber and teacher, revealing how his passion for wild places and adventure served as a means of survival and a form of recovery from childhood sexual abuse. He candidly explores the long-term impact of this trauma on his psyche and relationships, finding strength in the mountains in the emotional journey of healing. The book is a powerful story of hope, resilience, and the creation of a life fulfilled despite an early, horrific trauma. …   In the end it is the quality of the writing, how the books impact on the reader, and how long they remained in our minds that formed the judges’ decision. …The writing of this book was an immensely brave undertaking. Our decision was unanimous – This year’s Boardman Tasker Award is awarded to The Corridor by Iain Peters.`,
+		author: 'Rehan Siddiqui',
+		position: 'Chair of Judges for the 2025 Boardman Tasker Award for Mountain Literature'
+	},
+	{
 		quote: `…in five decades of devouring climbing literature, I’ve never read anything that comes close to the emotional impact of Iain’s life story. …this extraordinary and ultimately uplifting book… offers a remarkable story of survival, a beautiful sense of time and place, the value of strong non-judgemental relationships, and the joy of the outdoors and time spent on rock and ice.`,
 		author: 'Hugh Thornbery',
 		position: 'Professional Mountaineering Magazine'

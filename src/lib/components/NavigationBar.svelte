@@ -8,7 +8,7 @@
 
 	const navItems = [
 		{ label: 'Home', href: '/' },
-		{ label: 'Acclaim', href: '/acclaim' }
+		{ label: 'Press and Reviews', href: '/press-and-reviews' }
 	];
 
 	let scrolled = false;

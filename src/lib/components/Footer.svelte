@@ -6,7 +6,7 @@
 </script>
 
 <footer
-	class="bg-dark-brown w-full h-24 md:h-32 xl:h-36 flex justify-around text-off-white justify-center items-center text-sm md:text-base xl:text-lg"
+	class="bg-dark-brown w-full h-20 md:h-24 flex justify-around text-off-white justify-center items-center text-sm md:text-base xl:text-lg"
 >
 	<div class="flex flex-col gap-4">
 		<div class="flex gap-4">
