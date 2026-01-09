@@ -8,6 +8,8 @@
 	<title>Iain Peters - The Corridor</title>
 	<meta name="description" content="Website for author Iain Peters' book The Corridor" />
 	<meta name="keywords" content="Iain Peters, The Corridor, climbing, CSA, mountaineering" />
+	<meta property="og:url" content="https://iainpeters.com" />
+	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Iain Peters" />
 	<meta property="og:description" content="Website for author Iain Peters' book The Corridor" />
 	<meta property="og:image" content="https://iainpeters.com/cover-5.jpg" />
