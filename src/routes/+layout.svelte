@@ -10,7 +10,7 @@
 	<meta name="keywords" content="Iain Peters, The Corridor, climbing, CSA, mountaineering" />
 	<meta property="og:title" content="Iain Peters" />
 	<meta property="og:description" content="Website for author Iain Peters' book The Corridor" />
-	<meta property="og:image" content="/cover-5.jpg" />
+	<meta property="og:image" content="https://iainpeters.com/cover-5.jpg" />
 	<meta name="robots" content="index, follow" />
 	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
