@@ -6,7 +6,7 @@
 <div class="flex flex-col gap-6">
 	<DescriptionSection
 		{description}
-		src="/cover-5.jpg"
+		src="/cover.png"
 		alt="The front cover of The Corridor by Iain Peters"
 	/>
 </div>
