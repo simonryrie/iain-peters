@@ -32,6 +32,14 @@
 			</article>
 			<article>
 				<a
+					href="https://www.thedevondaily.co.uk/news/local-news/devon-author-hailed-inspirational-award-winning-book-overcoming-childhood-abuse"
+					>Devon author hailed as 'inspirational' for award-winning book on overcoming childhood
+					abuse</a
+				>
+				<span> - Rob Stewart | The Devon Daily | 22nd December 2025</span>
+			</article>
+			<article>
+				<a
 					href="https://www.bristol247.com/culture/books/book-event-explores-paths-of-healing-after-historic-abuse/"
 					>Book event explores paths of healing after historic abuse</a
 				>
